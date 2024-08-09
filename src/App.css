@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.game {
+  width: 500px;
+  margin:20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px
+}
+
+button {
+  width: 80px;
+  height:30px;
+  font-size: 8.5pt;
+  border: 1px solid #414141;
+}
+
+.selected-button {
+  border-width: 2px;
+  border-color: rgb(12, 90, 216);
+}
+
+.selected-incorrect {
+  border-width: 2px;
+  border-color: rgb(188, 12, 12);
+}
+
+.selected-correct {
+  border-width: 2px;
+  border-color: #66cc99;
+}
